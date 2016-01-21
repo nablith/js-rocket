@@ -10,6 +10,10 @@ var changeState = function (state) {
 		document.getElementById('nervous').className = 'nervous';
 	}
 
+	if (state == 1) {
+		document.getElementById('cant-wait').className = 'cant-wait';
+	}	
+
 
 		// countdown
 	if (state == 2) {
