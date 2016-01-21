@@ -29,13 +29,35 @@
 .rocket {
 	position: absolute;
 	left: 50%;
-	bottom: 20px;
-	width: 20px;
-	height: 100px;
-	background-color: pink;
+	bottom: -13px;
+	width: 143px;
+	height: 272px;
+	margin-left: -71.5px;
+	background: url('../img/rocket-state1.png') no-repeat 0 0;
 	transition: bottom 1000ms;
 
 }
+
+
+/*
+rocket bg image
+*/
+body.body-state2 .rocket {
+	background-image: url('../img/rocket-state2.gif');
+	}
+
+body.body-state3 .rocket,
+body.body-state4 .rocket {
+
+}
+body.body-state5 .rocket {
+
+}
+
+/*
+End BG Image
+*/
+
 
 body.body-state1 .rocket {
 	transition: none;
@@ -67,4 +89,9 @@ a {
 
 a.button {
 
+}
+
+h1 {
+	font-family: 'Lato: light', sans-serif;
+	font-weight: 100;
 }
